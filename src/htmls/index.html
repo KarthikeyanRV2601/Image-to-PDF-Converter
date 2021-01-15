@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>beautpdf</title>
+</head>
+<body class="Beautpdf">
+    <li class="Navigation">
+        <div class="Logo">
+        <img class="LogoIcon" src="../media/icons/logo.png">
+        <a href="#" class="LogoText">Beautpdf</a>
+        </div>
+    </li>
+    <div class="Landing">
+    <img class="LandingIcon"src="../media/icons/JPG-to-PDF.png">
+    <h1 class="Header">Cook your images into a pdf </h1>
+    <div class="Container">
+        <div class="InnerLine">
+        <div class="InputBox">
+            <div class="Button">
+                
+                <label for="files" class="InputButton">Upload Images</label>
+                <input id="files" style="visibility:hidden;" type="file" onchange="readURL(this)" multiple>
+            </div>
+            <img class="UploadIcon" src="../media/icons/upload.png" />
+        </div>
+        <p class="Information">Upload your images or drag it in here</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="Workspace" id="workspace">
+        <div class="TopPanel">
+            Rearrange and structure your images
+        </div>
+        <div class="Gallery">
+            <div class="Images" id="sortable">
+                
+            </div>
+            
+        </div>
+        <iframe id="pdf" class="PDF"></iframe>
+        <div class="sidePanel">
+            <div class="ProgressBar">
+                <div class="Progress">
+                    
+                </div>
+            </div>
+            <div class="Convert-Info">
+                <p class="Text">Click here to start converting your images</p>
+                <img class="DownIcon" src="../media/icons/down.png">
+            </div>
+            <button class="Convert" onclick="startConverting(true)">Convert</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../JS/pdf-lib.min.js"></script>
+    <script src="../JS/App.js"></script>
+</body>
+</html>

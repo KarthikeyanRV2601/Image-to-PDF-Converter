@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bodoni Moda', serif;
+  font-family: 'Karla', sans-serif;
+}
+
+.Beautpdf .Navigation {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.Beautpdf .Navigation .Logo {
+  width: 150px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Beautpdf .Navigation .Logo .LogoIcon {
+  width: 45px;
+}
+
+.Beautpdf .Navigation .Logo .LogoText {
+  color: #353535;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Beautpdf .Landing {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: #c7eef5;
+  -webkit-clip-path: ellipse(100% 88% at 69% 92%);
+          clip-path: ellipse(100% 88% at 69% 92%);
+  -webkit-animation: animateClip 2s ease-in-out infinite alternate;
+          animation: animateClip 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes animateClip {
+  0% {
+    -webkit-clip-path: ellipse(100% 88% at 69% 92%);
+            clip-path: ellipse(100% 88% at 69% 92%);
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  100% {
+    -webkit-clip-path: ellipse(90% 88% at 55% 89%);
+            clip-path: ellipse(90% 88% at 55% 89%);
+    -webkit-filter: hue-rotate(45deg);
+            filter: hue-rotate(45deg);
+  }
+}
+
+@keyframes animateClip {
+  0% {
+    -webkit-clip-path: ellipse(100% 88% at 69% 92%);
+            clip-path: ellipse(100% 88% at 69% 92%);
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  100% {
+    -webkit-clip-path: ellipse(90% 88% at 55% 89%);
+            clip-path: ellipse(90% 88% at 55% 89%);
+    -webkit-filter: hue-rotate(45deg);
+            filter: hue-rotate(45deg);
+  }
+}
+
+.Beautpdf .Landing .LandingIcon {
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Beautpdf .Landing .Header {
+  color: #353535;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.Beautpdf .Landing .Container {
+  margin-top: 5%;
+  width: 70%;
+  height: 50%;
+  background: #faad7a;
+  -webkit-box-shadow: 0 0 20px rgba(241, 172, 115, 0.788);
+          box-shadow: 0 0 20px rgba(241, 172, 115, 0.788);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Beautpdf .Landing .Container .InnerLine {
+  width: 95%;
+  height: 90%;
+  border: 2px dashed rgba(170, 115, 71, 0.788);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: animate 1s ease-in infinite alternate;
+          animation: animate 1s ease-in infinite alternate;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background: #faad7a;
+  }
+  100% {
+    background: #0c0c0c1c;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background: #faad7a;
+  }
+  100% {
+    background: #0c0c0c1c;
+  }
+}
+
+.Beautpdf .Landing .Container .InnerLine .InputBox {
+  width: 150px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: white;
+  border-radius: 6px;
+}
+
+.Beautpdf .Landing .Container .InnerLine .InputBox .Button {
+  width: 120px;
+  height: 50px;
+}
+
+.Beautpdf .Landing .Container .InnerLine .InputBox .Button .InputButton {
+  width: 120px;
+  height: 50px;
+  background: #96e0ff;
+  color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  font-weight: bolder;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Beautpdf .Landing .Container .InnerLine .InputBox .Button .InputButton:hover {
+  background: grey;
+  color: white;
+}
+
+.Beautpdf .Landing .Container .InnerLine .UploadIcon {
+  width: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Beautpdf .Landing .Container .Information {
+  margin-top: 5%;
+  color: white;
+  font-size: 16px;
+}
+
+.Beautpdf .Workspace {
+  position: relative;
+  display: none;
+}
+
+.Beautpdf .Workspace .Gallery {
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: 100px;
+}
+
+.Beautpdf .Workspace .Gallery .Images {
+  margin-left: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: move;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap .Image {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap .DeleteButton {
+  width: 30px;
+  height: 30px;
+  background: url("../media/icons/delete.png");
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 10%;
+  background-size: cover;
+  display: none;
+  cursor: pointer;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap .DeleteButton:hover {
+  opacity: 0.5;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap:hover .DeleteButton {
+  display: inline;
+}
+
+.Beautpdf .Workspace .Gallery .Images .ImageWrap:hover .Image {
+  opacity: 0.5;
+}
+
+.Beautpdf .Workspace .PDF {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+.Beautpdf .Workspace .TopPanel {
+  width: 80%;
+  height: 50px;
+  background: #3771eed2;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Beautpdf .Workspace .sidePanel {
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #3771eed2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Beautpdf .Workspace .sidePanel .ProgressBar {
+  width: 200px;
+  height: 5px;
+  background: white;
+  opacity: 0;
+}
+
+.Beautpdf .Workspace .sidePanel .ProgressBar .Progress {
+  width: 0px;
+  height: 5px;
+  background: #3fcf07;
+}
+
+.Beautpdf .Workspace .sidePanel .Convert-Info {
+  width: 100%;
+  height: 100px;
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Beautpdf .Workspace .sidePanel .Convert-Info .Text {
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.Beautpdf .Workspace .sidePanel .Convert-Info .DownIcon {
+  width: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  margin-top: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  -webkit-animation: animateDown 0.4s ease-in infinite alternate;
+          animation: animateDown 0.4s ease-in infinite alternate;
+}
+
+@-webkit-keyframes animateDown {
+  0% {
+    margin-top: 30%;
+  }
+  100% {
+    margin-top: 35%;
+  }
+}
+
+@keyframes animateDown {
+  0% {
+    margin-top: 30%;
+  }
+  100% {
+    margin-top: 35%;
+  }
+}
+
+.Beautpdf .Workspace .sidePanel .Convert {
+  width: 100px;
+  height: 30px;
+  background: #ff3e5e;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.Beautpdf .Workspace .sidePanel .Convert:hover {
+  background: #353535;
+  color: white;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  .Beautpdf .Workspace .TopPanel {
+    width: 100%;
+    height: 50px;
+  }
+  .Beautpdf .Workspace .sidePanel {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    left: 0;
+    top: 50px;
+  }
+  .Beautpdf .Workspace .Gallery .Images {
+    margin-left: 10%;
+    margin-top: 30vh;
+  }
+  .Beautpdf .Workspace .sidePanel .Convert-Info {
+    width: 100%;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
