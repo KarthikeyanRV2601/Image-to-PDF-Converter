@@ -109,7 +109,7 @@ const deleteImage = (src,e) => {
    
     const imageWraps=document.querySelectorAll('.ImageWrap');
     imageWraps.forEach(imageWrap=>imageWrap.childNodes[0].dataset.index===e.target.attributes[1].nodeValue?imageWrap.remove():null);
-    createPDF();
+    
 
 
 }
